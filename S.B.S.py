@@ -5,25 +5,25 @@ def ljosoff():
     for i in ljospinnar:
         i.value(0)
     sleep_ms(2000)
+    
         
 stig = []
 
-user1_sk = Pin(12, Pin.IN, Pin.PULL_UP)
-user1_bl = Pin(12, Pin.IN, Pin.PULL_UP)
-user1_st = Pin(12, Pin.IN, Pin.PULL_UP)
+user1_sk = Pin(7, Pin.IN, Pin.PULL_UP)
+user1_bl = Pin(15, Pin.IN, Pin.PULL_UP)
+user1_st = Pin(16, Pin.IN, Pin.PULL_UP)
 
-user2_sk = Pin(12, Pin.IN, Pin.PULL_UP)
-user2_bl = Pin(12, Pin.IN, Pin.PULL_UP)
-user2_st = Pin(12, Pin.IN, Pin.PULL_UP)
+user2_sk = Pin(17, Pin.IN, Pin.PULL_UP)
+user2_bl = Pin(18, Pin.IN, Pin.PULL_UP)
+user2_st = Pin(8, Pin.IN, Pin.PULL_UP)
 
-user1_rautt = Pin(9, Pin.OUT)
-user1_graent = Pin(9, Pin.OUT)
-user1_blatt = Pin(9, Pin.OUT)
+user1_rautt = Pin(41, Pin.OUT)
+user1_graent = Pin(40, Pin.OUT)
+user1_blatt = Pin(39, Pin.OUT)
 
-user2_rautt = Pin(9, Pin.OUT)
-user2_graent = Pin(9, Pin.OUT)
-user2_blatt = Pin(9, Pin.OUT)
-
+user2_rautt = Pin(38, Pin.OUT)
+user2_graent = Pin(37, Pin.OUT)
+user2_blatt = Pin(36, Pin.OUT)
 
 
 while True:
