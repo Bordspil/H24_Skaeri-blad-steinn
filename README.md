@@ -1,6 +1,7 @@
 **Höfundar:** Kristján Skjóldal Haraldsson, Kormákur Breki Gunnarsson og Þorsteinn Heiðar Hreimsson  
 Leikjaspilið er skæri, blað og steinnn best af þremur
-
+https://youtube.com/shorts/Qcu3lhDtAlo?feature=share
+https://youtu.be/quDSV1-hbAI
 
 ```python
 from machine import Pin, PWM, ADC
