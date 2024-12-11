@@ -3,6 +3,9 @@ Leikjaspilið er skæri, blað og steinnn best af þremur
 https://youtube.com/shorts/Qcu3lhDtAlo?feature=share
 https://youtu.be/quDSV1-hbAI
 
+![IMG_20241211_105943](https://github.com/user-attachments/assets/1f6ab7be-8acc-4a5b-88c8-1b8a9537add6)
+
+
 ```python
 from machine import Pin, PWM, ADC
 from time import sleep_ms
@@ -12,6 +15,7 @@ from neopixel import NeoPixel
 neo1 = NeoPixel(Pin(12), 3)   
 neo2 = NeoPixel(Pin(13), 3)   
 stig = []
+passiveBuzzer = PWM(Pin(41))
 user1_sk = Pin(7, Pin.IN, Pin.PULL_UP)
 user1_bl = Pin(15, Pin.IN, Pin.PULL_UP)
 user1_st = Pin(16, Pin.IN, Pin.PULL_UP)
@@ -69,6 +73,25 @@ while True:
                 neo1.write()
                 neo2.fill([0, 0, 255])
                 neo2.write()
+            #sigurlag
+            for i in range(5):
+                
+                passiveBuzzer.init()          # enable PWM pinna
+                passiveBuzzer.duty(512)       
+                
+                passiveBuzzer.freq(100)       # freq er notað til að vinna með tíðni,
+                time.sleep_ms(100)
+                
+                passiveBuzzer.freq(400)
+                time.sleep_ms(100)
+                
+                passiveBuzzer.freq(800)
+                time.sleep_ms(100)
+                
+                passiveBuzzer.duty(0)         # skrifar út 0V, slökkva á hljóði
+            else:
+                passiveBuzzer.deinit()
+            
             break
             
         # leitar af input
@@ -217,8 +240,6 @@ while True:
                 break
                 
                 
-
-
 
 
 ```
