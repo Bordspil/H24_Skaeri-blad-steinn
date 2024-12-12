@@ -1,12 +1,13 @@
 # Skæri blað steinn (best af þremur)
 **Höfundar:** Kristján Skjóldal Haraldsson, Kormákur Breki Gunnarsson og Þorsteinn Heiðar Hreimsson  
 <br>
-
-![borðspil](https://github.com/Bordspil/H24_Skaeri-blad-steinn/blob/main/bordspil.jpg)
-
+Myndbönd:
 - [Spilun](https://youtu.be/quDSV1-hbAI)
 - [Lóðun](https://youtube.com/shorts/Qcu3lhDtAlo?feature=share)
 
+---
+
+![borðspil](https://github.com/Bordspil/H24_Skaeri-blad-steinn/blob/main/bordspil.jpg)
 ![IMG_20241211_105943](https://github.com/user-attachments/assets/1f6ab7be-8acc-4a5b-88c8-1b8a9537add6)
 ![hönnun](https://github.com/Bordspil/H24_Skaeri-blad-steinn/blob/main/bordspil%20toppur%20og%20hitt.svg)
 
