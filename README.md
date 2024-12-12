@@ -1,7 +1,8 @@
+# Skæri blað steinn
 **Höfundar:** Kristján Skjóldal Haraldsson, Kormákur Breki Gunnarsson og Þorsteinn Heiðar Hreimsson  
 Leikjaspilið er skæri, blað og steinnn best af þremur
-https://youtube.com/shorts/Qcu3lhDtAlo?feature=share
-https://youtu.be/quDSV1-hbAI
+- [Spilun](https://youtu.be/quDSV1-hbAI)
+- [Lóðun](https://youtube.com/shorts/Qcu3lhDtAlo?feature=share)
 
 ![IMG_20241211_105943](https://github.com/user-attachments/assets/1f6ab7be-8acc-4a5b-88c8-1b8a9537add6)
 
